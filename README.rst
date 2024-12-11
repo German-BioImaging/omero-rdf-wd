@@ -1,11 +1,11 @@
-.. image:: https://github.com/German-BioImaging/omero-rdf-wd/workflows/OMERO/badge.svg
-    :target: https://github.com/german-bioimaging/omero-rdf-wd/actions
+.. image:: https://github.com/German-BioImaging/omero-rdf-wikidata/workflows/OMERO/badge.svg
+    :target: https://github.com/german-bioimaging/omero-rdf-wikidata/actions
 
-.. image:: https://badge.fury.io/py/omero-rdf-wd.svg
-    :target: https://badge.fury.io/py/omero-rdf-wd
+.. image:: https://badge.fury.io/py/omero-rdf-wikidata.svg
+    :target: https://badge.fury.io/py/omero-rdf-wikidata
 
-omero-rdf-wd
-============
+omero-rdf-wikidata
+==================
 
 Wikidata extension for omero-rdf
 
@@ -26,7 +26,7 @@ Install the command-line tool using `pip <https://pip.pypa.io/en/stable/>`_:
 
 ::
 
-    $ pip install -U omero-rdf-wd
+    $ pip install -U omero-rdf-wikidata
 
 Release process
 ---------------

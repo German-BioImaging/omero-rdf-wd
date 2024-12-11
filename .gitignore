@@ -1,6 +1,6 @@
 build
 dist
-omero-rdf-wd-*
+omero-rdf-wikidata-*
 *.egg*
 .cache
 *.DS_Store

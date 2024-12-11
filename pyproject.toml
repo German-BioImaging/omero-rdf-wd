@@ -7,10 +7,10 @@ requires = [
 [tool.setuptools_scm]
 
 [tools.setuptools.dynamic]
-version = {attr = "omero_rdf_wd.__version__"}
+version = {attr = "omero_rdf_wikidata.__version__"}
 
 [project]
-name = "omero-rdf-wd"
+name = "omero-rdf-wikidata"
 readme = "README.rst"
 dynamic = ["version"]
 description="Wikidata extension for omero-rdf"
@@ -51,11 +51,11 @@ tests = [
 ]
 
 [project.urls]
-Repository = "https://github.com/German-BioImaging/omero-rdf-wd"
-Changelog = "https://github.com/German-BioImaging/omero-rdf-wd/blob/master/CHANGES.txt"
+Repository = "https://github.com/German-BioImaging/omero-rdf-wikidata"
+Changelog = "https://github.com/German-BioImaging/omero-rdf-wikidata/blob/master/CHANGES.txt"
 
 [project.entry-points."omero_rdf.annotation_handler"]
-idr_annotations = "omero_rdf_wd.idr_annotations:IDRAnnotationHandler"
+idr_annotations = "omero_rdf_wikidata.idr_annotations:IDRAnnotationHandler"
 
 [tool.setuptools]
 package-dir = {""= "src"}
