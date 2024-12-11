@@ -25,7 +25,7 @@ from rdflib import BNode, Literal, Namespace, URIRef
 from rdflib.namespace import DC, RDF
 from wikidataintegrator import wdi_core
 
-from . import Data, Handler, Triple
+from omero_rdf import Data, Handler, Triple
 
 HPAS = Namespace("http://www.proteinatlas.org/search/")
 OMERO = Namespace("https://idr.openmicroscopy.org/webclient/img_detail/")
